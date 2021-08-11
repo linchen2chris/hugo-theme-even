@@ -3,16 +3,16 @@
 
 name = "Even"
 license = "MIT"
-licenselink = "https://github.com/olOwOlo/hugo-theme-even/blob/master/LICENSE.md"
+licenselink = "https://github.com/linchen2chris/hugo-theme-even/blob/master/LICENSE.md"
 description = "A super concise theme for Hugo"
-homepage = "https://github.com/olOwOlo/hugo-theme-even"
+homepage = "https://github.com/linchen2chris/hugo-theme-even"
 tags = ["responsive", "blog", "simple", "clean", "highlight.js", "syntax highlighting"]
 features = ["responsive", "blog", "simple", "clean", "highlight.js", "syntax highlighting"]
 min_version = "0.60.0"
 
 [author]
-  name = "olOwOlo"
-  homepage = "https://github.com/olOwOlo"
+  name = "linchen2chris"
+  homepage = "https://github.com/linchen2chris
 
 # If porting an existing theme
 [original]
