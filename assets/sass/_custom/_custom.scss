@@ -8,3 +8,11 @@
   font-family: monospace;
   color: green;
 }
+
+.priority .timestamp {
+  display: none;
+}
+
+li::marker {
+  display: none;
+}
