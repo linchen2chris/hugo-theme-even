@@ -9,8 +9,25 @@
   color: green;
 }
 
-.priority .timestamp {
+.priority {
   display: none;
+}
+
+.timestamp {
+  display: none;
+}
+.tags {
+  background-color: #ededed;
+  border: 1px solid #ededed;
+  color: #939393;
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-size: 80%;
+  font-weight: normal;
+  margin: 0 3px;
+  padding: 1px 2px;
+  border-radius: 10px;
 }
 
 li::marker {
