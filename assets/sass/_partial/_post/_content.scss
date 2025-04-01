@@ -7,11 +7,14 @@
 
   @for $i from 1 through 6 {
     h#{$i} {
-      font-weight: 900;
       font-family: $global-serif-font-family;
-      @if $i > 2 {
+      @if $i > 1 {
         border-bottom: none;
+        font-weight: 600;
+        font-size: 1em;
       } @else {
+        font-weight: 900;
+        font-size: 1.6em;
         border-bottom: 2px LightGrey solid;
       }
 
