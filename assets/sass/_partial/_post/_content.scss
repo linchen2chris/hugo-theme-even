@@ -9,7 +9,11 @@
     h#{$i} {
       font-weight: 900;
       font-family: $global-serif-font-family;
-      border-bottom: 2px LightGrey solid;
+      @if $i > 2 {
+        border-bottom: none;
+      } @else {
+        border-bottom: 2px LightGrey solid;
+      }
 
       .anchor {
         float: left;

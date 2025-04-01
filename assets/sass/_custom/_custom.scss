@@ -9,12 +9,26 @@
   color: green;
 }
 
+.org-todo.done.DONE {
+  background-color: bisque;
+  font-family: monospace;
+  color: green;
+}
+
+.org-todo.done.CANCEL {
+  background-color: bisque;
+  font-family: monospace;
+  color: grey;
+}
 .priority {
   display: none;
 }
 
+$post-toc-width: 300px;
+$post-toc-content: 13px;
 .timestamp {
-  display: none;
+  font-family: monospace;
+  font-size: small;
 }
 .tags {
   background-color: #ededed;
